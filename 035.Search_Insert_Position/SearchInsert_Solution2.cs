@@ -19,6 +19,6 @@ public class Solution {
                 return mid;
             }
         }
-        return low;
+        return low; 
     }
 }
