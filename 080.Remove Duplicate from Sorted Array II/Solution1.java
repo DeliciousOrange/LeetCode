@@ -22,11 +22,13 @@ class Solution {
          
             }           
         }
+        // 关于下面这样返回一个变量加上一个常量尾巴的情形，要思考下是否可以消除掉常量尾巴
+        // 毕竟不带尾巴更加简洁
         return j+1;
     }
 
     // 下面的代码更加简洁，关于in-place原地修改数组的实现确实应该像下面的代码这么优雅简洁
-    
+
     // public int removeDuplicates(int[] nums) {
     //     int i = 0;
     //     for (int n : nums)
